@@ -1,0 +1,32 @@
+.gellary img {
+    width: 100%;
+    padding: 0;
+
+
+}
+.gellary{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.overlay_G{
+    /* "overlay_G d-flex justify-content-center align-items-center" */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.gellary:hover .overlay_G{
+    opacity: 1;
+}

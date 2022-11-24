@@ -1,0 +1,60 @@
+
+
+img{
+    width: 250px;
+    
+}
+.star_line{
+height: 3px;
+width: 8rem;
+z-index: 412;
+color: #4f4f4f;
+border-radius: 5px;
+background-color: #4f4f4f;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact_d {
+    padding:0px 5px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color:rgb(49, 49, 49);
+    font-weight: 600;
+
+
+
+
+
+}
+body{
+    font-family: 'Segoe UI';
+}p
+
+input{
+    appearance: none;
+}
+.btn{
+    background-color:#1abc9c;
+    padding: 15px 35px;
+    border: none;
+    border-radius:8px;
+    font-weight: 600;
+    margin: 10px 0px 90px 0px;
+
+    width: 12%;
+
+
+}
+.btn:hover{
+    background-color: #159a80;
+    border-color: #148f77;
+    
+}

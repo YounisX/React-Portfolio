@@ -1,0 +1,61 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+
+  background-color: rgba(0, 0, 0, 0.826);
+
+}
+.icon_close{
+  position: absolute;
+  right: 1%;
+  top: -6%;
+  cursor: pointer;
+}
+
+.modal_design {
+
+  position: absolute;
+background-color: aliceblue;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+ margin: auto;
+  transform: translate(-50%, -50%);
+  z-index: 20000000;
+  border-radius:  50px;
+}
+
+.star_line {
+  height: 3px;
+  width: 8rem;
+  z-index: 412;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+}
+.img_style {
+border-radius: 40px;
+padding: 0;
+width: 60%;
+
+
+}
+.img_container{
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.divider {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

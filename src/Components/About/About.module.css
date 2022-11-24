@@ -1,0 +1,42 @@
+.about_bg{
+    background-color:#dc4c64 ;
+    height: 80vh;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.bg_home{
+height: 100vh;
+    background-color: #1abc9c ;
+}
+img{
+    width: 250px;
+    
+}
+.star_line{
+height: 3px;
+width: 8rem;
+z-index: 412;
+color: white;
+border-radius: 5px;
+background-color: aliceblue;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}

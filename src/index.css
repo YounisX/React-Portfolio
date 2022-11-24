@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a.active {
+  background-color: var(--clr);
+  box-shadow: 0 0 30px var(--clr);
+  letter-spacing: .16em;
+  border-radius: 25px;
+}
+.NavLink a{
+  transition: all 2s;
+  padding: 12px 10px;
+
+}
+:root {
+  --clr: #438bf86b;
+}
